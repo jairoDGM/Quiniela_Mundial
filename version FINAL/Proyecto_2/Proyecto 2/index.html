@@ -1,0 +1,57 @@
+<html>
+<head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Inicio Sesion - Qatar 2022</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="estilos/estilos_index.css">
+
+      <!-- JQUERY -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <!--FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+      <!-- Los iconos tipo Solid de Fontawesome-->
+      <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+      <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+<body class="p-5">
+    <div class="modal-dialog text-center">
+      <div class="col-sm-8 main-section">
+        <div class="modal-content">
+          <div class="col-12 user-img" >
+              <img src="estilos/img/avatar1.png"/>
+          </div>
+          <form class="col-12" action="verificar1.php" method="get">
+            <div class="form-group" id="user-group">
+              <input type="text" class="form-control" placeholder="Usuario" name="nombre"/>
+            </div>
+            <div class="form-group" id="contrasena-group" >
+              <input type="text" class="form-control" placeholder="contrasena" name="contrasena"/>
+            </div>
+            <button type="submit" class="btn btn-primary">  
+              <i class="fas fa-sign-in-alt"></i>  Ingresar
+            </button>
+            </br>
+            <div class="form-group olvide"></div>
+              <a class="btn btn-primary bnt-sm" href="Registro.html" role="button">
+              <i class="fas fa-sign-in-alt"></i>Registro
+              </a>
+              <div class="form-group admin"></div>
+              <a class="btn btn-primary bnt-sm" href="Inicio_admin.html" role="button">ADMINISTRADOR</a>
+            </div>
+          </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  
+  </body>
+</html>
